@@ -1,0 +1,5 @@
+services: 
+  otel-collector: 
+    environment: 
+      - DT_ENDPOINT 
+      - DT_API_TOKEN
